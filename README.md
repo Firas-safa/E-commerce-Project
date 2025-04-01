@@ -61,7 +61,7 @@ Follow these steps to clone the project and run it locally:
  ./mvnw spring-boot:run  # Runs the backend server
 ```
 
-### **4. Test Authentication & Features**
+### **3. Test Authentication & Features**
 
 - Register a new user.
 - Log in and access the product categories.
