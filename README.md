@@ -45,6 +45,7 @@ Follow these steps to clone the project and run it locally:
 
 #### **b. Configure the Database**
 
+- Add Database in Postgresql using `CREATE DATABASE PROJECTNAME`
 - Update `application.properties` with your database configuration.
 - Example for PostgreSQL:
 
