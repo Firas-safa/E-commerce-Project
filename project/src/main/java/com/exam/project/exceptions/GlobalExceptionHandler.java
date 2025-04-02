@@ -71,11 +71,4 @@ public class GlobalExceptionHandler {
 
         return new ResponseEntity<>(errorResponse, HttpStatus.UNAUTHORIZED);
     }
-
-    @ExceptionHandler(UserIdNotFoundException.class)
-    public ResponseEntity<?> handleUserIdNotFoundException(UserIdNotFoundException ex) {
-        ProductResponseDto errorResponse = new ProductResponseDto(404,ex.getMessage());
-        return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
-    }
-
 }
